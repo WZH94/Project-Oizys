@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &186558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 471382}
+  - component: {fileID: 11439882}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &471382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11439882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbe5b082a785e7641bf1a62b930a3f5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChatManagerNetworkObject:
+  - {fileID: 1000012032569418, guid: b454b1be0b2c3fa4fb48430867af7566, type: 3}
+  CubeForgeGameNetworkObject: []
+  ExampleProximityPlayerNetworkObject:
+  - {fileID: 1000012738253334, guid: feb25ecf90a8d8b4ab922a455249997b, type: 3}
+  NetworkCameraNetworkObject:
+  - {fileID: 139536, guid: 661f29f0c0c86fa47b6015bd602d0ac6, type: 3}
+  PlayerManagerNetworkObject: []
+  PlayerNetworkObject:
+  - {fileID: 3512917296709843383, guid: b5bef23e4a2f2da46ae68867eecd4a24, type: 3}
+  - {fileID: 223414470993635008, guid: b6cd60ccdf9ed2942a8895642d5dd7a5, type: 3}
+  - {fileID: 6708147962154190136, guid: 29849fa3f1bcefe428fc9cb910b45670, type: 3}
+  - {fileID: 2975155500203823111, guid: 701df097cd57e444e81b6a52d2bc2e30, type: 3}
+  - {fileID: 508137608374398468, guid: 3dc1c66c9bc89464aa83e4a3f1cc9b84, type: 3}
+  - {fileID: 3111744869124309062, guid: d32b70c07e3ed9f418b2cc15f56e7a0f, type: 3}
+  - {fileID: 7306115470086212132, guid: 89a958f14716b67489c11ba7f2799827, type: 3}
+  - {fileID: 8642175701448528549, guid: 3718be4335f26a94892be2b7066fa9be, type: 3}
+  - {fileID: 2068467047950933048, guid: 7d704bb8433c5d14fbf7e9e470dfe2dd, type: 3}
+  - {fileID: 6199258218271056473, guid: 69a64638ce44aa54e83c628da1270f2f, type: 3}
+  - {fileID: 7759946017531168602, guid: 98f8d84d0ec30dd418b10ad5bc603145, type: 3}
+  - {fileID: 8824425824256248421, guid: caa6878c09a102449b84a5536bb31678, type: 3}
+  - {fileID: 277988663143454398, guid: e1ab5afc7e04b014f9826a8ef021fb13, type: 3}
+  - {fileID: 5129358947957892588, guid: 1c2ceb5d30a403244bd7cae582afea00, type: 3}
+  - {fileID: 3074112797560365299, guid: 7d4321814579ac646b05634fb9151845, type: 3}
+  - {fileID: 2867734959549952219, guid: e2b0c935896a9ed4e91d80b7795a6f92, type: 3}
+  - {fileID: 7985423024673640965, guid: 3f4dc5c779be667458c1d8b0792cc2cf, type: 3}
+  TestNetworkObject: []
+  automaticScenes: 1
